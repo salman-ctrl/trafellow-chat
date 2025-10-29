@@ -285,6 +285,7 @@ export default function App() {
           <div className="mt-6 text-center">
             <button
               onClick={() => setAuthMode(authMode === "login" ? "register" : "login")}
+              className="text-blue-500 hover:underline text-sm"
             >
               {authMode === "login" 
                 ? "Don't have an account? Register" 
