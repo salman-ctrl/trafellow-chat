@@ -289,7 +289,6 @@ export default function App() {
             >
               {authMode === "login" 
                 ? "Don't have an account? Register" 
-                : "Already have an account? Login"}
             </button>
           </div>
         </div>
